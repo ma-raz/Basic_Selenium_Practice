@@ -41,8 +41,16 @@ public class CheckBoxConcept {
 
     @After
     public void tearDown(){
+        dealyFor(2000);
         driver.close();
         driver.quit();
+    }
+    public void dealyFor(int timeInMili)  {
+        try {
+            Thread.sleep(timeInMili);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
