@@ -102,6 +102,7 @@ public class Basic_Selenium {
     public void tearDown(){
     // driver.close(); //To close current WebDriver instance
     // driver.quit();  // To close all the opened WebDriver instances
+        //Add one more line
 }
 
 }
